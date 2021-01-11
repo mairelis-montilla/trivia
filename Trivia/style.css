@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ font-family: roboto;
+}
+html{
+  font-size: 62.5%;
+   background-color:#2a84f991;
+}
+
+
+
+.title{
+  font-size: 3rem;
+  text-align: center;
+  color:rgb(0, 68, 255);
+}
+
+
+
+#label{
+color: rgb(4, 76, 211);
+margin: 1.5rem;
+
+
+}
+#name{
+
+  border: 2px solid  rgb(26, 22, 241);
+  border-radius: 5rem;
+  color: black;
+  width: 21rem;
+  height: 4rem;
+  text-align: center;
+  margin: 1rem 5rem;
+  cursor: pointer;
+  
+}
+
+#button{
+  text-align: center;
+  margin: 1rem 6rem;
+  background-color:rgb(4, 0, 255);
+  border: 2px solid white;
+  border-radius: 5rem;
+  color: white;
+  width: 20rem;
+  
+  cursor: pointer;
+  
+  
+}
+.container-white{
+  background-color: white;
+  margin:2rem auto;
+  height: 58rem;
+  width: 32rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+border: 1px solid white;
+border-radius: 5rem;
+}
+.container-white.question{
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1.2rem;
+  
+
+}
+#logo{
+  width: 20rem;
+  height: 15rem;
+}
+.title-large{
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+}
+.title-medium{
+  font-size: 1.9rem;
+  margin: 1rem 4rem;
+}
+.title-small{
+  font-size: 1.7rem;
+  text-align: center;
+}
+ .buttons{
+   font-size: 2rem;
+   text-shadow: 1px 1px black;
+   color:rgb(255, 255, 255);
+   margin: 2rem auto;
+border-radius: 5rem;
+width: 26rem ;
+height: 3.5em;
+/*box-shadow: 5px 5px 0px 0px rgb(50, 206, 218);*/
+cursor: pointer;
+}
+
+.buttons.answer{
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin:1rem;
+  width: 26rem;
+  height: 5.1rem;
+ box-shadow: none;
+ color:white;
+ font-weight: bold;
+ background-color: rgb(0, 64, 241);
+  }
+  
+
+  .card{
+    margin: 1rem auto;
+    width: 30rem;
+
+  }
+  .image-card{
+    margin: .5rem auto;
+     width: 30rem;
+     height: 15rem;
+
+  }
+  
+  #tip{
+    font-size: 2rem;
+color:blue;
+display: flex;
+
+  }
+  #list{
+  color: rgba(0, 38, 255, 0.801);
+    margin:1rem auto; 
+  list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    cursor:pointer;
+  }
+  .list-option{
+  border-left: 1px solid blue;
+  }
+  /*colores de opciones de segunda pantalla*/
+ 
+ #button-a{
+  
+   background-color: rgba(0, 38, 255, 0.801);
+ }
+ #button-b{
+   background-color: rgba(0, 38, 255, 0.801)
+ }
+
+ #remember{
+   color: red;
+ }
+ #medal{
+   width: 10rem;
+   height: 15rem;
+ }
+
+.power-off{
+  display:none;
+  }

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Limatico</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  
+
+	<div class="container-white" id="welcome-container">
+
+		<h1 class="title"> Bienvenid@ Limatico!! </h1>
+
+		<p class="title-small"> La trivia que pondrá a prueba que tanto conoces Lima</p>
+
+		<label for="name" id="label" class="title-medium">Para iniciar escribe tu nombre:</label>
+      <br>
+      <input type="text" name="name" id="name" value="" maxlength="15" placeholder="Ejemplo: Maria">
+       <p class=" title-small power-off" id="remember">Hey no puedes iniciar si no escribes tu nombre</p>
+      <button type="submit" class="buttons" id="button">Iniciar</button>
+     
+       <img src="./sources/logo.png" alt="Logo" id="logo">
+   
+  </div>
+
+  <!-- PANTALLA DE SALUDO AL USUARIO -->
+   <div class="container-white power-off " id="sayHi-container">
+    
+
+   <h1 class="title-large" id="sayHi" > </h1>
+    <h2 class="title-medium">¿Qué tanto sabes de Lima?</h2>
+   <h3 class="title-small">Selecciona una categoría para iniciar</h3>
+
+   <button value="lugares" class="buttons" id="button-a">
+Lugares Turísticos
+</button>
+
+  <button value="sucesos" class="buttons" id="button-b">
+  Sucesos Históricos
+</button>
+ </div>
+    </div>
+  
+<!-- PANTALLAS DE PREGUNTAS -->
+
+<!-- PREGUNTA 1A -->
+
+<div class="container-white question power-off " id="qa1-container">
+  <h1 class="title-medium" id="text-top">Lugares Turísticos</h1>
+
+  <div class="card" id="questionA1" >
+<img src="./sources/huaca.jpeg" class="image-card" alt="imagen Huaca">
+<h2 class="title-small">¿Cómo se llaman este tipo de construcciones?</h2>
+<button class="buttons answer" id="piramidesFalseA1">Piramides</button>
+<button class="buttons answer" id="temploFalseA1" >Templos</button>
+<button class="buttons answer" id="huacasTrueA1" value>Huacas</button>
+<button class="buttons answer" id="ningunaFalseA1">Ninguna de las anteriores</button>
+
+  </div>
+</div>
+
+<!-- PREGUNTA 2A-->
+<div class="container-white question power-off" id="qa2-container">
+  <h1 class="title-medium" id="text-top">Lugares Turísticos</h1>
+
+  <div class="card" id="questionA2" value="">
+<img src="./sources/Centro historico de Lima.jpg" class="image-card" alt="centro historico de lima">
+<h2 class="title-small">¿Cuándo se declaró al Centro Histórico de Lima Patrimonio de la Humanidad?</h2>
+<button class="buttons answer"id="false1535A2" value="false">1535</button>
+<button class="buttons answer"id="true1991A2" value="false">1991</button>
+<button class="buttons answer"id="false1821A2" value>1821</button>
+<button class="buttons answer"id="false1998A2">1998</button>
+
+  </div>
+</div>
+
+<!-- PREGUNTA 3A-->
+<div class="container-white question power-off" id="qa3-container">
+  <h1 class="title-medium" id="text-top">Lugares Turísticos</h1>
+
+  <div class="card"id="Callao" value="">
+<img src="./sources/callao .jpg" class="image-card" alt="callao">
+<h2 class="title-small">¿A qué distrito pertenece esta imagen?</h2>
+<button class="buttons answer"id="callaotrueA3" value="false">Callao</button>
+<button class="buttons answer"id="mirafloresfalseA3" >Miraflores</button>
+<button class="buttons answer"id="barrancofalseA3" value>Barranco</button>
+<button class="buttons answer"id="rimacfalseA3">Rimac</button>
+
+  </div>
+</div>
+
+<!-- PREGUNTA B1-->
+
+<div class="container-white question power-off " id="qb1-container">
+  <h1 class="title-medium" id="text-top">Sucesos Históricos</h1>
+
+  <div class="card" id="questionB1" value="">
+<img src="./sources/santo domingo.jpg" class="image-card" alt="Convento de Santo Domingo">
+<h2 class="title-small">¿Qué sucedió en el  convento Santo Domingo?</h2>
+<button class="buttons answer"id="firmaActaFalseB1" value="false">Firma del Acta de Independencia</button>
+<button class="buttons answer"id="firmaTratadoFalseB1" value="false">Firma del tratado de Lima</button>
+<button class="buttons answer"id="composicionTrueB1" value>Composición de las notas del Himno Nacional</button>
+<button class="buttons answer"id="primeraFalseB1">Primera Comunión de San Martín de Porres</button>
+
+  </div>
+</div>
+
+<!-- PREGUNTA 2B-->
+<div class="container-white question power-off" id="qb2-container">
+  <h1 class="title-medium" id="text-top">Sucesos Históricos</h1>
+
+  <div class="card"id="questionB2" value="">
+<img src="./sources/casa_literatura_vdy4.jpg" class="image-card" alt="casa Literatura">
+<h2 class="title-small">¿Qué era anteriormente la Casa de la Literatura?</h2>
+<button class="buttons answer"id="edificioFalseB2" value="false">Edificio Municipal</button>
+<button class="buttons answer"id="salaFalseB2" value="false"> Sala de Lecturas</button>
+<button class="buttons answer"id="museoFalseB2" value> Museo</button>
+<button class="buttons answer"id="estacionTrueB2">Estación del Ferrocarril</button>
+
+  </div>
+</div>
+
+<!-- PREGUNTA 3B -->
+<div class="container-white question power-off" id="qb3-container">
+  <h1 class="title-medium" id="text-top">Sucesos Históricos</h1>
+
+  <div class="card" id="questionB3" value="">
+<img src="./sources/colegio.jpg" class="image-card" alt="colegio guadalupe">
+<h2 class="title-small">¿Cuál de estas Instituciones no participo en la Guerra con Chile?</h2>
+<button class="buttons answer"id="sanMarcosFalseB3" value="false">Universidad San Marcos</button>
+<button class="buttons answer"id="colegioFalseB3" value="false">Colegio Guadalupe</button>
+<button class="buttons answer"id="universidadTrueB3" value>Universidad de Ingenieria</button>
+<button class="buttons answer"id="ningunaFalse3B">Ninguna de las anteriores </button>
+
+  </div>
+</div>
+
+
+
+<!-- PANTALLA DE RESULTADO FINAL-->
+<div class="container-white power-off " id="score-container" >
+    <img src="./sources/trofeo.svg" id="medal" alt="trofeo">
+  <h1 class="title-large" id="congrats"></h1>
+<h3 class="title-small">tu puntaje es:</h3>
+<h2 class="title-medium" id="score-right"></h2>
+<h2 class="title-medium" id="score-wrong"></h2>
+
+<p class="title-medium" id="tip">Te invitamos a estos Lugares Gratis:
+ <ul class="title-small" id="list">
+ <a href="https://www.bcrp.gob.pe/museocentral.html"> <li class="">  Museo Central del BCR</li></a>
+  <a href="http://www.casadelaliteratura.gob.pe/"><li class="list-option">Casa de la Literatura</li></a>
+ <a href="http://es-la.facebook.com/CasaOhiggins"><li class="list-option">Casa O'higgins</li></a>
+
+ </ul>
+
+</p>
+<button class="buttons answer" id="change">Cambiar de categoría</button>
+<button class="buttons answer" id="goHome">Volver al Inicio</button>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
